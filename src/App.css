@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #fff 0%, #33aaca 100%);
+}
+.App {
+  text-align: center;
+}
+.form {
+  padding: 14px 32px 14px 16px;
+  border-radius: 10px;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  margin: 50px auto 10px auto;
+  width: 520px;
+  background: #3d545c;
+}
+
+.form-input {
+  width: 250px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.submit-button {
+  width: 40px;
+  margin-left: 2px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #3d545c;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 15px 0;
+}
+
+.list-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px auto;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 3px;
+  border-radius: 3px;
+  width: 90%;
+  background-color: #33aaca;
+}
+
+.remove-button {
+  width: 30px;
+  margin-left: 3px;
+  background-color: rgb(252, 72, 72);
+  border-radius: 5px;
+}
